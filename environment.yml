@@ -1,0 +1,17 @@
+name: py10_rl
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - ipykernel
+  - jupyter
+  - pip
+  - pip:
+    - matplotlib
+    - pydantic
+    - plotly
+    - seaborn
